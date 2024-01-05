@@ -1,0 +1,55 @@
+body{
+    background-color: #1E202B;
+    color: #fff;
+}
+#search-area{
+    background: url(../images/banner.png);
+    background-size: cover;
+    min-height: 350px;
+}
+
+.find-location input:first-child{
+    width: 100%;
+    padding: 15px 50px 15px 20px;
+    background-color: #1e202b;
+    color: #fff;
+    font-size: .88rem;
+}
+
+.find-location input{
+    outline: none;
+    border: none;
+    border-radius: 30px;
+}
+
+.find-location input:last-child{
+    position: absolute;
+    padding: 11px 40px;
+    right:  5px;
+    top: 5px;
+    bottom: 5px;
+    background-color: #009AD8;
+    color: #fff;
+    font-size: .88rem;
+}
+
+.main{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+#weatherArea{
+    background-color: #323544;
+    border-radius: 1rem;
+    position: absolute;
+    top: -200%;
+    /* right: 6%; */
+}
+
+.section-header{
+    background-color: rgba(0, 0, 0, 0.1);;
+}
+
+.secondDay{
+    background-color: #262936;
+}

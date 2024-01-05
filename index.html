@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section id="search-area">
+        <div class="container p-5">
+            <div class="find-location position-relative">
+                <input id="changeCountry" type="text" placeholder="Find your location...">
+                <input type="button" value="Find">
+            </div>
+        </div>
+    </section>
+
+    <section class="position-relative main">
+        <div class="container" id="weatherArea">
+            <div class="row">
+                <div class="col-md-4 p-0" id="currentWeather"></div>
+
+                <div id="tomorrowWeather" class="col-md-4 text-center p-0 secondDay"></div>
+
+                <div id="dayAfterTomorrowWeather" class="col-md-4 text-center p-0"></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
